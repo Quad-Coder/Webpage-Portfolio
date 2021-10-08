@@ -1,11 +1,12 @@
-import react from "react";
 import "./Header.css";
 
-function Header(){
-    return  <>
-   <h1>This is the start.</h1>
-            <h3>but not the end...</h3>
-            </>
+function Header() {
+  return (
+    <header>
+      <h1>Hello, my name is Quadrick Reeder.</h1>
+      <h2>Welcome to me corner.</h2>
+    </header>
+  );
 }
 
 export default Header;
