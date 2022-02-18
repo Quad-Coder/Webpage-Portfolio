@@ -18,3 +18,8 @@
         # Education
             # Thinkful - Software Engineering Immersion Program
             #DevOps Certification Training
+
+        # Interests
+            # Photography
+            # Favorite Movies
+            # Podcasts
