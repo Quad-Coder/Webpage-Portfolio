@@ -1,20 +1,20 @@
 # Quadrick's Webpage-Portfolio
 
-# Home Page
+    # Home Page
 
-    # Profile Picture
+        # Profile Picture
 
-    # Clickable Buttons
-        # LinkedIn
-        # GitHub
-        # Contact
-        # Resume
+        # Clickable Buttons
+            # LinkedIn
+            # GitHub
+            # Contact
+            # Resume
 
-    # Projects
-        # We Love Movies
-        # GrubDash
-        # Pomodoro Timer
+        # Projects
+            # We Love Movies
+            # GrubDash
+            # Pomodoro Timer
 
-    # Education
-        # Thinkful - Software Engineering Immersion Program
-        #DevOps Certification Training
+        # Education
+            # Thinkful - Software Engineering Immersion Program
+            #DevOps Certification Training
