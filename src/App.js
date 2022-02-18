@@ -8,7 +8,8 @@ function App() {
           <img src="home_portrait.jpg" alt="Quadrick"></img>
         </div>
         <div class="col-md-8">
-          <h1 class="title-text clickable">Quadrick Reeder</h1>
+          <h1>Quadrick Reeder</h1>
+          <h2>Full-Stack Javascript Developer</h2>
         </div>
       </header>
       <main></main>
