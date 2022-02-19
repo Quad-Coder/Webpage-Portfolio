@@ -1,11 +1,15 @@
 .Header-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+.home-profile-img {
+  width: 10%;
+  display: flex;
 }
 
 .home-profile-img img {
-  width: 8%;
+  width: 100%;
   border-radius: 10px;
   border: solid 3px rgba(255, 255, 255, 0.5);
   box-shadow: 0px 0px 5px rgba(0 0 0 / 50%);
@@ -20,6 +24,7 @@ header h1 {
   color: #54348f;
   font-family: "Lato", sans-serif;
   border-bottom: 0ch;
+  margin: 20px 0px 17px;
 }
 
 header h2 {
@@ -28,4 +33,19 @@ header h2 {
   text-align: center;
   color: #468fa2;
   border-top: 0ch;
+  display: flex;
+  margin: 20px 0px 17px;
+}
+
+.profile-header-btns .btn{
+  padding: 0 20px;
+  margin: 10px;
+}
+
+.col-md-8 {
+  position: relative;
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 1px;
 }
