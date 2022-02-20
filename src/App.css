@@ -1,3 +1,11 @@
+body {
+  background-color: #ffff;
+  color: #666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.75em;
+}
+
 .wrap-primary-plan {
   background-image: url("images/javascript-developer.jpg");
   background-size: cover;
@@ -13,9 +21,9 @@
   margin-left: 13%;
 }
 .home-profile-img {
-  width: 10%;
+  width: 13%;
   display: flex;
-  padding-right: 20%;
+  padding-right: 27%;
 }
 
 .home-profile-img img {
@@ -33,7 +41,7 @@ header h1 {
   text-shadow: 0 1px 2px rgba(0 0 0 / 75%);
   font-size: 3em;
   text-align: center;
-  color: #d4d700;
+  color: #ffff;
   font-family: "Lato", sans-serif;
   border-bottom: 0ch;
   margin: 20px 0px 17px;
@@ -49,11 +57,6 @@ header h2 {
   margin: 20px 0px 17px;
 }
 
-.profile-header-btns .btn {
-  padding: 0 20px;
-  margin: 10px;
-}
-
 .col-md-8 {
   position: relative;
   display: block;
@@ -61,4 +64,45 @@ header h2 {
   padding-left: 15px;
   min-height: 1px;
   padding-top: 50px;
+}
+
+.btn {
+  font-weight: 400;
+}
+
+.profile-header-btns .btn {
+  padding: 0 20px;
+  margin: 10px;
+}
+
+.btn-ar {
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.btn-ar.btn-info {
+  color: #ffff;
+  background: linear-gradient(to bottom, #54c8eb 5%, #2fbce7 100%);
+  background-color: #54c8eb;
+  border: #34bee7;
+}
+
+.btn-ar.btn-primary {
+  color: #ffff;
+  background: linear-gradient(to bottom, #800080 5%, #db00b6 100%);
+  background-color: #800080;
+  border: #db00b6;
+}
+
+.btn-ar.btn-danger {
+  color: #ffff;
+  background: linear-gradient(to bottom, #ff0000 5%, #e60b09 100%);
+  background-color: #ff0000;
+  border: #e60b09;
+}
+
+.button-glow {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: glowing;
 }

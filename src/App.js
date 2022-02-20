@@ -20,7 +20,7 @@ function App() {
               </a>
               <a
                 href="https://github.com/Quad-Coder"
-                class="hidden-print btn btn-ar btn-info button-glow button-rounded button-raised btn-lg"
+                class="hidden-print btn btn-ar btn-primary button-glow button-rounded button-raised btn-lg"
               >
                 <i class="fa fa-github"></i>" GitHub"
               </a>
