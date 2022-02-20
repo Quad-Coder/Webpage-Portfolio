@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <body>
-      <header>
+      <header class="profile-header wrap-primary-plan">
         <div class="Header-container">
           <div class="home-profile-img">
             <img src="home_portrait.jpg" alt="Quadrick"></img>
