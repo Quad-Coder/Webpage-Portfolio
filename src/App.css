@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 13%;
+  margin-left: 5%;
 }
 .home-profile-img {
   width: 13%;
@@ -68,6 +68,9 @@ header h2 {
 
 .btn {
   font-weight: 400;
+  display: inline-block;
+  touch-action: manipulation;
+  white-space: nowrap;
 }
 
 .profile-header-btns .btn {
