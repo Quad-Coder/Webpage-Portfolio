@@ -2,7 +2,8 @@
   background-image: url("images/Coding-Laptop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 40%;
+  min-height: 375px;
 }
 
 .Header-container {
