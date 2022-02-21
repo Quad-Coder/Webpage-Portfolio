@@ -66,8 +66,14 @@ header h2 {
   padding-top: 50px;
 }
 
+.profile-header-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .btn {
-  font-weight: 400;
+  font-weight: 900;
   display: inline-block;
   touch-action: manipulation;
   white-space: nowrap;
@@ -80,7 +86,7 @@ header h2 {
 
 .btn-ar {
   border-radius: 2px;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .btn-ar.btn-info {
@@ -97,15 +103,28 @@ header h2 {
   border: #db00b6;
 }
 
-.btn-ar.btn-danger {
-  color: #ffff;
-  background: linear-gradient(to bottom, #ff0000 5%, #e60b09 100%);
-  background-color: #ff0000;
-  border: #e60b09;
+section {
+  display: block;
 }
 
-.button-glow {
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-name: glowing;
+.info-card {
+  border-radius: 15px;
+  margin: 0px 38px 38px;
+}
+
+.accent-border {
+  border: #a60124;
+  border-radius: 15px;
+}
+
+.info-title {
+  color: #000000;
+  text-align: center;
+  font-size: 3em;
+  font-family: sans-serif;
+  background-color: #007ddb;
+}
+
+.info-text {
+  color: #000000;
 }
