@@ -128,3 +128,51 @@ section {
 .info-text {
   color: #000000;
 }
+
+/*-------------------- Media Breakpoints --------------------*/
+/*--- Tablet ---*/
+@media all and (min-width: 768px) {
+  body {
+    font-size: 1.75vw;
+  }
+  h2 {
+    font-size: 4vw;
+    padding: 0.2rem;
+  }
+  p {
+    margin: 0.75rem;
+  }
+}
+
+/*--- Desktop ---*/
+@media all and (min-width: 1024px) {
+  body {
+    font-size: 1.4vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  .flex-double {
+    flex: 2;
+  }
+}
+
+/*--- 2k PC ---*/
+@media all and (min-width: 1440px) {
+  body {
+    font-size: 1.25vw;
+  }
+  h2 {
+    font-size: 2.5vw;
+  }
+}
+
+/*--- 4K PC ---*/
+@media all and (min-width: 2560px) {
+  body {
+    font-size: 1vw;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+}

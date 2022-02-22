@@ -39,14 +39,15 @@ function App() {
               <hr></hr>
               <div class="info-text">
                 <p>
-              I am a Full Stack Developer with a background in customer service
-              and warehouse production. I like to learn new skills and
-              information and don’t like to be stagnant. In previous years of
-              customer service, I learned this about myself. I want to break
-              into the tech industry because I believe technology is only going
-              to become more dominant in the future. Interested in opportunities
-              to apply my training and experience to support appropriate teams.
-            </p>
+                  I am a Full Stack Developer with a background in customer
+                  service and warehouse production. I like to learn new skills
+                  and information and don’t like to be stagnant. In previous
+                  years of customer service, I learned this about myself. I want
+                  to break into the tech industry because I believe technology
+                  is only going to become more dominant in the future.
+                  Interested in opportunities to apply my training and
+                  experience to support appropriate teams.
+                </p>
               </div>
             </div>
           </div>
