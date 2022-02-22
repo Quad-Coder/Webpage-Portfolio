@@ -156,23 +156,21 @@ section {
     flex: 2;
   }
 }
+/* --- Phones ---*/
 
-/*--- 2k PC ---*/
-@media all and (min-width: 1440px) {
-  body {
-    font-size: 1.25vw;
-  }
-  h2 {
-    font-size: 2.5vw;
-  }
-}
+  /* Portrait */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
-/*--- 4K PC ---*/
-@media all and (min-width: 2560px) {
-  body {
-    font-size: 1vw;
   }
-  h2 {
-    font-size: 2vw;
-  }
+    /* Landscape */
+  @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
