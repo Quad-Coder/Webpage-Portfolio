@@ -158,19 +158,24 @@ section {
 }
 /* --- Phones ---*/
 
-  /* Portrait */
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
+/* Portrait */
+@media all and (orientation: portrait) {
+  .Header-container {
+    display: block;
+    flex-direction: column;
   }
-    /* Landscape */
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
+  .home-profile-img img {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .home-profile-img {
+    padding: 0%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }

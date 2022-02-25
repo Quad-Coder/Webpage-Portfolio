@@ -7,7 +7,7 @@ function App() {
       <header class="profile-header wrap-primary-plan">
         <div class="Header-container">
           <div class="home-profile-img">
-            <img src="home_portrait.jpg" alt="Quadrick"></img>
+            <img src="home_portrait.jpg" alt="Quadrick" class="center"></img>
           </div>
           <div class="col-md-8">
             <h1>Quadrick Reeder</h1>
