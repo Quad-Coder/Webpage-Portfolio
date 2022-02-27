@@ -104,7 +104,7 @@ header h2 {
 }
 
 section {
-  display: block;
+  display: flex;
 }
 
 .info-card {
@@ -127,6 +127,7 @@ section {
 
 .info-text {
   color: #000000;
+  font-size: 4em;
 }
 
 /*-------------------- Media Breakpoints --------------------*/
