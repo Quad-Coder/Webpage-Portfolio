@@ -52,6 +52,8 @@ function App() {
             </div>
           </div>
         </section>
+        <div class="photo-card"></div>
+        <div class="photography"></div>
       </main>
     </body>
   );
