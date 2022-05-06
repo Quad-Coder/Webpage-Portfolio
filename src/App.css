@@ -1,7 +1,7 @@
 body {
   background-color: #ffff;
   color: #666;
-  font-family: "Open Sans", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 14px;
   line-height: 1.75em;
 }
@@ -103,18 +103,21 @@ header h2 {
   border: #db00b6;
 }
 
-section {
+.section {
   display: flex;
 }
 
 .info-card {
   border-radius: 15px;
   margin: 0px 38px 38px;
+  border-color: #a60124;
 }
 
 .accent-border {
-  border: #a60124;
+  border: #a60124(--accent-color-primary);
   border-radius: 15px;
+  border-width: 0.5em;
+  overflow: hidden;
 }
 
 .info-title {
@@ -127,7 +130,8 @@ section {
 
 .info-text {
   color: #000000;
-  font-size: 4em;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 /*-------------------- Media Breakpoints --------------------*/

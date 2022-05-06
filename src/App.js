@@ -34,19 +34,32 @@ function App() {
           <div class="info-card accent-border">
             <div class="info-body flex">
               <div class="info-title">
-                <h1>Who Am I</h1>
+                <h1>About Quad</h1>
               </div>
               <hr></hr>
               <div class="info-text">
                 <p>
-                  I am a Full Stack Developer with a background in customer
-                  service and warehouse production. I like to learn new skills
-                  and information and don’t like to be stagnant. In previous
-                  years of customer service, I learned this about myself. I want
-                  to break into the tech industry because I believe technology
-                  is only going to become more dominant in the future.
-                  Interested in opportunities to apply my training and
-                  experience to support appropriate teams.
+                  I am Quadrick. /kwad-rik/ I was born in Denton TX and raised
+                  in Oakland CA. Between teaching myself how to code
+                  independently before attending Thinkful's Software Engineering
+                  Program, years of experience in Customer Service and Warehouse
+                  knowledge, I believe I will be an asset to any Software
+                  Engineer or Web Developer team. I am actively seeking
+                  opportunities in the San Francisco Bay Area and anywhere that
+                  provides relocation assistence of Remote positions in this
+                  tech world.
+                </p>
+                <p>
+                  My interest in Software Engineering are Full-Stack
+                  Web-Development, UX/UI Development, JavaScript, Node.js,
+                  React, ExpressJS, JQuery, JSON, HTML5, and CSS3.Including
+                  learning the MERN and PERN Stacks, I like to learn new skills
+                  and information. This incudes ametuar photography with my
+                  Canon EOS Rebel T5, watching and analyzing films, and cooking
+                  a variaty of meals. I want to break into the tech to improve
+                  my quality of life, my families lives and because I believe
+                  not only is technology going to become more dominant in the
+                  future but also I don't want to be left behind.
                 </p>
               </div>
             </div>
